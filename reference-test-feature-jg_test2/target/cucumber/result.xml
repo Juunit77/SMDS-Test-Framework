@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.097">
+    <testcase classname="Announcements" name="Creating an Announcement" time="9.973">
+        <failure message="" type="java.lang.AssertionError"><![CDATA[Given The User has accessed CIRRAS and is on the Unit Summary Page..........passed
+When The User clicks Make An Announcement...................................passed
+Then The Announcements UI is presented to the User..........................passed
+When The User clicks the Announcement Type Dropdown.........................passed
+Then The Following <Options> should be available to the user................passed
+When The User selects an Announcement Type..................................passed
+Then The User should be able to enter text in the Announcement Text box.....passed
+And The Announcement Type retains...........................................passed
+When The User clicks the Submit button......................................passed
+Then The Announcement should be visible on the Announcements Board..........failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepdefinitions.AnnouncementStepDefs.the_announcement_should_be_visible_on_the_announcements_board(AnnouncementStepDefs.java:130)
+	at ✽.The Announcement should be visible on the Announcements Board(file:///C:/Users/Justin.Greenberg/reference-test-feature-jg_test2/src/test/java/features/Announcement.feature:19)
+]]></failure>
+    </testcase>
+</testsuite>
